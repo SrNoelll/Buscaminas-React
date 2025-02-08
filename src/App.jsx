@@ -160,7 +160,7 @@ function App() {
   
     // si se revela una mina se muestra alerta y se reinicia el juego
     if (mapaValores[x][y] === "*") {
-      alert("¡boom! has perdido. reiniciando la partida...");
+      alert("¡boom! has perdido. reiniciando la partida... Vueleve a Pulsar el botón para iniciare una nueva partida");
       toggleJuego();
       return;
     }
