@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import { CeldaComponent } from "./components/ButtonComponent/CeldaComponent";
 import Switch from "./components/ButtonComponent/Switch ";
+import cara from "./assets/images/acierto.png"
 
 function App() {
   // funcion para generar el tablero de juego con minas y numeros
@@ -225,7 +226,7 @@ function App() {
               </div>
               <div className="align-self-center m-2 borderInsideS">
                 <img
-                  src="./src/assets/images/acierto.png"
+                  src={cara}
                   style={{ width: 50 }}
                   alt="acierto"
                 />
